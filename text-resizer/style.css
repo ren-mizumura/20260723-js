@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #9a515b;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+  background: #82454e;
+  padding: 70px 25px;
+  position: relative;
+}
+
+header h1 {
+  color: #f1cf45;
+  font-size: 2em;
+  margin: 0;
+}
+
+/* リサイズボタン */
+.resizer {
+  position: absolute;
+  right: 25px;
+  top: 80px;
+  display: flex;
+  gap: 10px;
+}
+
+.resizer a {
+  display: block;
+  width: 2.5em;
+  text-align: center;
+  padding: 7px 0;
+  color: #82454e;
+  background: #f1cf45;
+}
+.resizer a:hover {
+  color: #f1cf45;
+  background: #63373e;
+}
+
+/* JSから追加されるクラス用のスタイル */
+.fontSmall {
+  font-size: .8em;
+}
+.fontMedium {
+  font-size: 1em;
+}
+.fontLarge {
+  font-size: 1.2em;
+}
+
+/* ナビゲーション */
+nav ul {
+  display: flex;
+}
+
+nav li {
+  width: 25%;
+}
+
+nav a {
+  display: block;
+  padding: 16px 0;
+  font-size: 1.2em;
+  text-align: center;
+  color: #f1cf45;
+  background: #6d3e45;
+}
+nav a:hover {
+  background: #63373e;
+}
+
+/* メインコンテンツ */
+main {
+  padding: 50px 25px 20px;
+  background: #fff;
+}
+
+h2 {
+  color: #6d3e45;
+  font-size: 2em;
+  margin: 0 0 20px;
+}
+
+p {
+  color: #6d3e45;
+  margin-bottom: 30px;
+  line-height: 2em;
+}

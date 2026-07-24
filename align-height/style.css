@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #484848;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 50px 0;
+    color: #dadada;
+    font-size: 5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+main {
+    overflow: hidden;
+}
+
+main div {
+    width: 199px;
+    background: #5d5d5d;
+    color: #cacaca;
+    margin-right: 1px;
+    float: left;
+}
+
+main p {
+    padding: 15px;
+    line-height: 1.5em;
+}
